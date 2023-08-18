@@ -8,7 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <div>dude you work now?</div>
         <input type="text"></input>
-        <input type="button">submit</input>
+        <input type="button" title="submit"></input>
       </header>
     </div>
   );
