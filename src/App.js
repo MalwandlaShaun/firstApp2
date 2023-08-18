@@ -7,8 +7,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div>dude you work now?</div>
-        <input type="text"></input>
-        <input type="button" title="submit"></input>
+        <form>
+          <input type="text"></input>
+          <br />
+          <input type="text"></input>
+          <br />
+          <button type="button">Submit</button>
+        </form>
       </header>
     </div>
   );
